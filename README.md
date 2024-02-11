@@ -20,4 +20,9 @@ esses campos na saída.
 2. Casos Complexos (com Whitespace)
     * `"Rio Branco 23" -> {"Rio Branco", "23"}`
     * `"Quirino dos Santos 23b" -> {"Quirino dos Santos": "23b"}`
-3.
+3. Caso Endereço Estrangeiro
+    * `"4, Rue de la République" -> {"Rue de la République", "4"}`
+    * `"100 Broadway Av” -> {"Broadway Av", "100"}`
+    * `"Calle Sagasta, 26" -> {“Calle Sagasta”, “26”}`
+    * `“Calle 44 No 1991” -> {“Calle 44”, “No 1991”}`
+

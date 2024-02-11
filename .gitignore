@@ -1,0 +1,3 @@
+.idea
+*.iml
+# ignores the .idea folder so that the project doesn't get restricted to any IDE
